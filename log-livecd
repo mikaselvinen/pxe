@@ -1,0 +1,209 @@
+==> /var/log/auth.log <==
+Nov 22 13:12:34 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:12:34 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 13:12:46 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu/Downloads ; USER=root ; COMMAND=/usr/bin/apt-get install tree
+Nov 22 13:12:46 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:12:47 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 13:14:41 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/bin/rm pxelinux.cfg
+Nov 22 13:14:41 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:14:41 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 13:15:11 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install git
+Nov 22 13:15:11 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:15:15 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 13:15:58 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu/code/pxe ; USER=root ; COMMAND=/bin/mv pxelinux.cfg /var/lib/tftpboot/
+Nov 22 13:15:58 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:15:58 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 13:16:18 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot/pxelinux.cfg ; USER=root ; COMMAND=sudoedit default
+Nov 22 13:17:01 xubuntu CRON[10704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 13:17:01 xubuntu CRON[10704]: pam_unix(cron:session): session closed for user root
+Nov 22 13:17:05 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu/code/pxe ; USER=root ; COMMAND=/bin/mv preseed.cfg /var/lib/tftpboot/
+Nov 22 13:17:05 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:17:05 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 13:29:29 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get install gedit
+Nov 22 13:29:29 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:29:32 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 13:35:40 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 13:35:40 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:35:54 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 13:38:30 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 13:38:30 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:40:24 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 13:40:26 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 13:40:26 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:48:35 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 13:51:35 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 13:51:35 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:51:40 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 13:54:40 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 13:54:40 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 13:54:59 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 13:58:43 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 13:58:43 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:00:16 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 14:00:25 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 14:00:25 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:00:55 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 14:02:57 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 14:02:57 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:04:53 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 14:04:54 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 14:04:54 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:08:30 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 14:14:29 xubuntu sudo:  xubuntu : TTY=pts/7 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/usr/bin/apt-get install ubuntu
+Nov 22 14:14:29 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:14:29 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 14:17:01 xubuntu CRON[11831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 14:17:01 xubuntu CRON[11831]: pam_unix(cron:session): session closed for user root
+Nov 22 14:24:18 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 14:24:18 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:34:15 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 14:35:15 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 14:35:15 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:44:34 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 14:52:49 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 14:52:49 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 14:53:32 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 14:55:35 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 14:55:35 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 15:17:01 xubuntu CRON[12103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 15:17:01 xubuntu CRON[12103]: pam_unix(cron:session): session closed for user root
+Nov 22 15:52:33 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 15:52:33 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 15:52:33 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 15:53:29 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 15:53:36 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit run.sh
+Nov 22 15:53:36 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 15:55:33 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 16:00:53 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 16:00:53 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 16:01:35 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 16:02:53 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 16:02:53 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 16:03:00 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 16:03:06 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/bin/rm run.sh
+Nov 22 16:03:06 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 16:03:06 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 16:14:16 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 22 16:14:16 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 16:17:01 xubuntu CRON[12630]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 22 16:17:01 xubuntu CRON[12630]: pam_unix(cron:session): session closed for user root
+Nov 22 16:20:06 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 22 16:20:48 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/bin/cp preseed.cfg /home/xubuntu/code/pxe/
+Nov 22 16:20:48 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 16:20:48 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 16:21:06 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/bin/cp pxelinux.cfg/ /home/xubuntu/code/pxe/
+Nov 22 16:21:06 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 16:21:06 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 16:21:19 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/bin/cp -r pxelinux.cfg/ /home/xubuntu/code/pxe/
+Nov 22 16:21:19 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 22 16:21:19 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 22 16:24:47 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/*/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /etc/lsb-release
+Nov 22 16:24:47 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+
+==> /var/log/syslog <==
+Nov 22 15:40:43 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.107 via eno1
+Nov 22 15:40:43 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.107 (78:ac:c0:ba:75:e4) via eno1
+Nov 22 15:42:03 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:83 via eno1: network 172.28.0.0/16: no free leases
+Nov 22 15:42:05 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.25 (172.28.171.192) from 78:ac:c0:c1:0a:83 via eno1: unknown lease 172.28.1.25.
+Nov 22 15:42:40 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.22 from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:42:40 xubuntu dhcpd[6312]: DHCPACK on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:43:48 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.29 via eno1
+Nov 22 15:43:48 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.29 (78:ac:c0:c1:08:56) via eno1
+Nov 22 15:43:50 xubuntu dhcpd[6312]: DHCPDISCOVER from 00:10:18:b2:2c:f9 via eno1: network 172.28.0.0/16: no free leases
+Nov 22 15:43:51 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.171.192 (172.28.170.201) from 00:10:18:b2:2c:f9 via eno1: unknown lease 172.28.171.192.
+Nov 22 15:44:04 xubuntu dhcpd[6312]: DHCPRELEASE of 172.28.1.22 from 78:ac:c0:c1:0a:85 via eno1 (not found)
+Nov 22 15:44:06 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.171.51 from 78:ac:c0:c1:05:cd via eno1: unknown lease 172.28.171.51.
+Nov 22 15:44:30 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.51 via eno1
+Nov 22 15:44:30 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.51 (78:ac:c0:c1:05:cd) via eno1
+Nov 22 15:44:42 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.107 via eno1
+Nov 22 15:44:42 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.107 (78:ac:c0:ba:75:e4) via eno1
+Nov 22 15:45:02 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:45:02 xubuntu dhcpd[6312]: DHCPOFFER on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:45:02 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.22 (172.28.171.102) from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:45:02 xubuntu dhcpd[6312]: DHCPACK on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:46:15 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.51 via eno1
+Nov 22 15:46:15 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.51 (78:ac:c0:c1:05:cd) via eno1
+Nov 22 15:46:16 xubuntu dhcpd[6312]: DHCPRELEASE of 172.28.1.22 from 78:ac:c0:c1:0a:85 via eno1 (not found)
+Nov 22 15:46:17 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.172.46 from 2c:27:d7:19:01:41 via eno1: unknown lease 172.28.172.46.
+Nov 22 15:46:42 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.46 via eno1
+Nov 22 15:46:42 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.46 (2c:27:d7:19:01:41) via eno1
+Nov 22 15:48:48 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.65 via eno1
+Nov 22 15:48:48 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.65 (78:ac:c0:ba:7b:65) via eno1
+Nov 22 15:48:51 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.46 via eno1
+Nov 22 15:48:51 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.46 (2c:27:d7:19:01:41) via eno1
+Nov 22 15:49:56 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.65 via eno1
+Nov 22 15:49:56 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.65 (78:ac:c0:ba:7b:65) via eno1
+Nov 22 15:50:22 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.171.134 from 78:ac:c0:c1:1b:61 via eno1: unknown lease 172.28.171.134.
+Nov 22 15:50:26 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.134 via eno1
+Nov 22 15:50:26 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.134 (78:ac:c0:c1:1b:61) via eno1
+Nov 22 15:50:41 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.222 via eno1
+Nov 22 15:50:41 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.222 (78:ac:c0:c2:8b:b5) via eno1
+Nov 22 15:51:33 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.107 via eno1
+Nov 22 15:51:33 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.107 (78:ac:c0:ba:75:e4) via eno1
+Nov 22 15:53:15 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:83 via eno1: network 172.28.0.0/16: no free leases
+Nov 22 15:53:16 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.172.87 (172.28.170.202) from 78:ac:c0:c1:0a:83 via eno1: unknown lease 172.28.172.87.
+Nov 22 15:53:26 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.63 via eno1
+Nov 22 15:53:26 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.63 (78:ac:c0:ba:7c:ec) via eno1
+Nov 22 15:53:50 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.29 via eno1
+Nov 22 15:53:50 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.29 (78:ac:c0:c1:08:56) via eno1
+Nov 22 15:54:05 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.51 via eno1
+Nov 22 15:54:05 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.51 (78:ac:c0:c1:05:cd) via eno1
+Nov 22 15:59:14 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.46 via eno1
+Nov 22 15:59:14 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.46 (2c:27:d7:19:01:41) via eno1
+Nov 22 15:59:29 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:59:29 xubuntu dhcpd[6312]: DHCPOFFER on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:59:31 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.22 (172.28.171.102) from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:59:31 xubuntu dhcpd[6312]: DHCPACK on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:59:31 xubuntu in.tftpd[12449]: tftp: client does not accept options
+Nov 22 15:59:54 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:59:54 xubuntu dhcpd[6312]: DHCPOFFER on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 15:59:54 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.172.183 (172.28.170.202) from 78:ac:c0:c1:0a:85 via eno1: lease 172.28.172.183 unavailable.
+Nov 22 15:59:54 xubuntu dhcpd[6312]: DHCPNAK on 172.28.172.183 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:00:44 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.222 via eno1
+Nov 22 16:00:44 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.222 (78:ac:c0:c2:8b:b5) via eno1
+Nov 22 16:01:45 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:83 via eno1: network 172.28.0.0/16: no free leases
+Nov 22 16:01:47 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.25 (172.28.171.192) from 78:ac:c0:c1:0a:83 via eno1: unknown lease 172.28.1.25.
+Nov 22 16:02:24 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:02:24 xubuntu dhcpd[6312]: DHCPOFFER on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:02:24 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.22 (172.28.171.102) from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:02:24 xubuntu dhcpd[6312]: DHCPACK on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:02:38 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.171.197 from 78:ac:c0:c1:0a:83 via eno1: unknown lease 172.28.171.197.
+Nov 22 16:02:38 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:83 via eno1: network 172.28.0.0/16: no free leases
+Nov 22 16:02:38 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.25 (172.28.171.192) from 78:ac:c0:c1:0a:83 via eno1: unknown lease 172.28.1.25.
+Nov 22 16:02:39 xubuntu dhcpd[6312]: DHCPRELEASE of 172.28.1.22 from 78:ac:c0:c1:0a:85 via eno1 (not found)
+Nov 22 16:03:06 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.1.25 via eno1
+Nov 22 16:03:06 xubuntu dhcpd[6312]: DHCPACK to 172.28.1.25 (78:ac:c0:c1:0a:83) via eno1
+Nov 22 16:03:32 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:03:32 xubuntu dhcpd[6312]: DHCPOFFER on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:03:34 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.22 (172.28.171.102) from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:03:34 xubuntu dhcpd[6312]: DHCPACK on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:03:34 xubuntu in.tftpd[12504]: tftp: client does not accept options
+Nov 22 16:03:53 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.29 via eno1
+Nov 22 16:03:53 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.29 (78:ac:c0:c1:08:56) via eno1
+Nov 22 16:03:57 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:03:57 xubuntu dhcpd[6312]: DHCPOFFER on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:03:57 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.172.183 (172.28.170.202) from 78:ac:c0:c1:0a:85 via eno1: lease 172.28.172.183 unavailable.
+Nov 22 16:03:57 xubuntu dhcpd[6312]: DHCPNAK on 172.28.172.183 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:06:26 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:83 via eno1: network 172.28.0.0/16: no free leases
+Nov 22 16:06:28 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.25 (172.28.171.192) from 78:ac:c0:c1:0a:83 via eno1: unknown lease 172.28.1.25.
+Nov 22 16:09:50 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.172.97 from 34:e2:fd:be:10:2f via eno1: unknown lease 172.28.172.97.
+Nov 22 16:10:46 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.222 via eno1
+Nov 22 16:10:46 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.222 (78:ac:c0:c2:8b:b5) via eno1
+Nov 22 16:13:55 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.29 via eno1
+Nov 22 16:13:55 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.29 (78:ac:c0:c1:08:56) via eno1
+Nov 22 16:17:01 xubuntu CRON[12631]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 22 16:19:06 xubuntu dhcpd[6312]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:19:06 xubuntu dhcpd[6312]: DHCPOFFER on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:19:06 xubuntu dhcpd[6312]: DHCPREQUEST for 172.28.1.22 (172.28.171.102) from 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:19:06 xubuntu dhcpd[6312]: DHCPACK on 172.28.1.22 to 78:ac:c0:c1:0a:85 via eno1
+Nov 22 16:19:54 xubuntu dhcpd[6312]: DHCPRELEASE of 172.28.1.22 from 78:ac:c0:c1:0a:85 via eno1 (not found)
+Nov 22 16:20:49 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.172.222 via eno1
+Nov 22 16:20:49 xubuntu dhcpd[6312]: DHCPACK to 172.28.172.222 (78:ac:c0:c2:8b:b5) via eno1
+Nov 22 16:23:58 xubuntu dhcpd[6312]: DHCPINFORM from 172.28.171.29 via eno1
+Nov 22 16:23:58 xubuntu dhcpd[6312]: DHCPACK to 172.28.171.29 (78:ac:c0:c1:08:56) via eno1
+
+==> /etc/lsb-release <==
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.1 LTS"
