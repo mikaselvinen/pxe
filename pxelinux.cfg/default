@@ -3,7 +3,7 @@
 
 label testi # 16.04 LTS
         kernel ubuntu-installer/amd64/linux
-        append initrd=ubuntu-installer/amd64/initrd.gz auto=true auto url=tftp://172.28.171.187/preseed.cfg locale=en_US.UTF-8 classes=minion DEBCONF_DEBUG=5 priority=critical
+        append initrd=ubuntu-installer/amd64/initrd.gz auto=true auto url=tftp://172.28.171.102/preseed.cfg locale=en_US.UTF-8 classes=minion DEBCONF_DEBUG=5 priority=critical
 
 prompt 1
 timeout 5
